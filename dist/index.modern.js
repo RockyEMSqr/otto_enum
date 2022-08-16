@@ -1,0 +1,2 @@
+function e(e){return Object.keys(e).filter(e=>isNaN(parseInt(e,10)))}function t(e){return Object.keys(e).filter(e=>1==e.split(" ").length).map(e=>parseInt(e,10)).filter(e=>!isNaN(e))}function n(e){return t(e).map(t=>({name:e[t],value:t}))}function r(e,t){return e[t]}var a={getNames:e,getValues:t,getNamesAndValues:n,getName:r};export default a;export{r as getName,e as getNames,n as getNamesAndValues,t as getValues};
+//# sourceMappingURL=index.modern.js.map

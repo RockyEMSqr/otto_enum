@@ -1,0 +1,2 @@
+function t(t){return Object.keys(t).filter(function(t){return 1==t.split(" ").length}).map(function(t){return parseInt(t,10)}).filter(function(t){return!isNaN(t)})}exports.getName=function(t,e){return t[e]},exports.getNames=function(t){return Object.keys(t).filter(function(t){return isNaN(parseInt(t,10))})},exports.getNamesAndValues=function(e){return t(e).map(function(t){return{name:e[t],value:t}})},exports.getValues=t;
+//# sourceMappingURL=index.js.map

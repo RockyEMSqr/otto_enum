@@ -1,0 +1,29 @@
+{
+  "name": "@emsquared/otto_enum",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.ts",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "browser": "dist/index.umd.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle index.ts -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyEMSqr/otto_enum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockyEMSqr/otto_enum/issues"
+  },
+  "homepage": "https://github.com/RockyEMSqr/otto_enum#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
